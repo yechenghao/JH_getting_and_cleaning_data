@@ -61,6 +61,7 @@ training_data <- cbind(training_subjects, training_data)
 ```
 
 **Data sources**
+
 Data source           | Remarks
 ---                   | ---
 subject_train.txt     | each row represents the subject.id associated with the observation
@@ -71,6 +72,7 @@ Y_train.txt           | each row represents the activity the subject carried out
 
 
 **R variables**
+
 R variables           | data type   | names()
 ----                  | ----        | ----
 training_subjects     | df          | "subject.id"
