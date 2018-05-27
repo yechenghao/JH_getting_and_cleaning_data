@@ -228,3 +228,9 @@ R variables           | data type   | names() | Remarks
 data_of_interest      | df          | "activity", "subject.id", ... mean and std dev parameters from feature list | updated to remove activity.id
 tidy_data             | df          | "activity", "subject".id" ... ensemble avg of mean and std dev parameters from feature list | -
 -
+
+## Step 8: Writing the result of tidy_data into a text file
+
+```
+write.table(tidy_data, "tidy_data.txt", sep = ",", row.names = FALSE)
+```
