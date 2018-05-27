@@ -11,6 +11,11 @@ subject for each activity.
 
 ## Step 1: Data ingestion of information common to both training and test datasets
 
+The activity labels and feature labels are being read in as data frames.
+The names of the columns of the respective data frames are then updated with
+meaningful labels.
+
+**Code:**
 ```
 activity_labels <- read.table("activity_labels.txt", header = FALSE, sep=" ")
 feature_labels <- read.table("features.txt", header = FALSE, sep=" ")
@@ -18,8 +23,15 @@ names(activity_labels) <- c("activity.id", "activity")
 names(feature_labels) <- c("feature.id", "feature")
 ```
 
+**Data sources**
 Data source           | Remarks
 ----                  | ----
 activity_labels.txt   | txt file associating activity id with activity description
 ----                  | ----
 features.txt          | txt file listing measurement descriptions of the columns in X_train.txt or X_test.txt
+
+**R variables**
+R variables           | type  | Remarks
+----                  | ----  | ----
+activity_labels       | df    | "activity id"; "activity"
+feature_labels        | df    | "feature.id"; "feature"
