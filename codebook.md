@@ -191,7 +191,7 @@ nil
 
 R variables           | data type   | names() | Remarks
 ---                   | ---         | ---     | ---
-data_of_interest      | df          | -       | df updated with activity description from activity_labels
+data_of_interest      | df          | "activity", "subject.id", ... mean and std dev parameters from feature list | df updated with activity description from activity_labels
 
 ## Step 7: Creating the tidy dataset of interest
 
@@ -228,5 +228,3 @@ R variables           | data type   | names() | Remarks
 data_of_interest      | df          | "activity", "subject.id", ... mean and std dev parameters from feature list | updated to remove activity.id
 tidy_data             | df          | "activity", "subject".id" ... ensemble avg of mean and std dev parameters from feature list | -
 -
-
- 
