@@ -26,17 +26,13 @@ names(feature_labels) <- c("feature.id", "feature")
 **Data sources**
 
 Data source           | Remarks
-----                  | ----
 activity_labels.txt   | txt file associating activity id with activity description
-----                  | ----
 features.txt          | txt file listing measurement descriptions of the columns in X_train.txt or X_test.txt
 
 **R variables**
 
 R variables           | data type   | names()
-----                  | ----        | ----
 activity_labels       | df          | "activity id"; "activity"
-----                  | ----        | ----
 feature_labels        | df          | "feature.id"; "feature"
 
 ## Step 2: Ingestion of training data
@@ -63,22 +59,15 @@ training_data <- cbind(training_subjects, training_data)
 **Data sources**
 
 Data source           | Remarks
----                   | ---
 subject_train.txt     | each row represents the subject.id associated with the observation
-----                  | ---
 X_train.txt           | each row represents the measurement results associated with each observation
-----                  | ---
 Y_train.txt           | each row represents the activity the subject carried out for the observation
 
 
 **R variables**
 
 R variables           | data type   | names()
-----                  | ----        | ----
 training_subjects     | df          | "subject.id"
-----                  | ----        | ----
 training_data         | df          | labeled in sequence according to feature_labels
-----                  | ----        | ----
 training_activity     | df          | "activity"
-----                  | ----        | ----
 training_data         | df          | "subject.id", "activity", ... list of features according to feature feature_labels
