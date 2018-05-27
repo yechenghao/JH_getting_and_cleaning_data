@@ -44,3 +44,12 @@ in the data set]]
 independent tidy data set with the average of each variable for each activity and subject.
 
 8. The output from 7. is then written into a txt file called "tidy_data.txt".
+
+# How to use run_analysis.R
+
+1. download the UCI dataset and unzip.
+
+2. Place run_analysis.R in the unzipped folder of the UCI dataset. Note that the the immediate
+sub directories should show a "train" folder or "test" folder
+
+3. source run_analysis.R
