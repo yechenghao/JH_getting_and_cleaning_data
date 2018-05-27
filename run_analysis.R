@@ -52,7 +52,7 @@ rm(test_subjects, test_activity)
 
 ##---- combining the data ----
 ###########################################################
-# 1. Merges the training and tet sets to create one data set
+# 1. Merges the training and test sets to create one data set
 ###########################################################
 
 combined_data <- rbind(test_data, training_data)

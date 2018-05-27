@@ -40,20 +40,7 @@ an activity.id is now associated with an activity description.
 in the data set]]
 
 7. "data_of_interest" is first grouped by activity, and then by subject.id. Following which, the grouped dataframe is summarized using the mean function.
-
 [[statisfies assessement point 5: from the data set in step4, create a second,
 independent tidy data set with the average of each variable for each activity and subject.
 
 8. The output from 7. is then written into a txt file called "tidy_data.txt".
-
-
-
-
-
-
-
-6.  
-
-
-
-5.
