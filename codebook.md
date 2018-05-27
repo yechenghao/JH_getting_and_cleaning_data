@@ -24,6 +24,7 @@ names(feature_labels) <- c("feature.id", "feature")
 ```
 
 **Data sources**
+
 Data source           | Remarks
 ----                  | ----
 activity_labels.txt   | txt file associating activity id with activity description
@@ -31,7 +32,9 @@ activity_labels.txt   | txt file associating activity id with activity descripti
 features.txt          | txt file listing measurement descriptions of the columns in X_train.txt or X_test.txt
 
 **R variables**
+
 R variables           | type  | Remarks
 ----                  | ----  | ----
 activity_labels       | df    | "activity id"; "activity"
+----                  | ----  | ----
 feature_labels        | df    | "feature.id"; "feature"
