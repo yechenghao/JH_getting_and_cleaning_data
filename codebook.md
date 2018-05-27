@@ -1,4 +1,4 @@
-#Codebook for run_analysis.R
+# Codebook for run_analysis.R
 
 This codebook describes the variables, data, and work done to clean up the
 dataset from the "Human Activity Recognition Using Smartphones" UCI Machine
@@ -23,5 +23,3 @@ Data source           | Remarks
 activity_labels.txt   | txt file associating activity id with activity description
 ----                  | ----
 features.txt          | txt file listing measurement descriptions of the columns in X_train.txt or X_test.txt
-
- 
